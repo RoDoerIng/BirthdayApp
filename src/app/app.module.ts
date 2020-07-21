@@ -5,14 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
-import {MatToolbarModule} from '@angular/material/toolbar';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
+import { Page1Component } from './page1/page1.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    Page1Component
   ],
   imports: [
     BrowserModule,
@@ -20,9 +22,7 @@ import { RouterModule } from '@angular/router';
     BrowserAnimationsModule,
     MatSliderModule,
     MatToolbarModule,
-    RouterModule.forRoot([
-      {path: '', component: HomeComponent, pathMatch: 'full'}
-    ])
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
