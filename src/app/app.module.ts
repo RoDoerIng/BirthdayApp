@@ -6,17 +6,23 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { HomeComponent } from './home/home.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSliderModule,
-    MatToolbarModule
+    MatToolbarModule,
+    RouterModule.forRoot([
+      {path: '', component: HomeComponent, pathMatch: 'full'}
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
