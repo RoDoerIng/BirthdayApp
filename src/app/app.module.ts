@@ -9,12 +9,14 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { Page1Component } from './page1/page1.component';
+import { BatteryComponent } from './battery/battery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    Page1Component
+    Page1Component,
+    BatteryComponent
   ],
   imports: [
     BrowserModule,
