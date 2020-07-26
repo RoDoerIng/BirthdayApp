@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { Page1Component } from './page1/page1.component';
 import { BatteryComponent } from './battery/battery.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BatteryComponent } from './battery/battery.component';
     BrowserAnimationsModule,
     MatSliderModule,
     MatToolbarModule,
-    RouterModule
+    RouterModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
