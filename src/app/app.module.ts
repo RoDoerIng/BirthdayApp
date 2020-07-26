@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { Page1Component } from './page1/page1.component';
@@ -25,6 +27,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     BrowserAnimationsModule,
     MatSliderModule,
     MatToolbarModule,
+    MatButtonModule,
+    MatCardModule,
     RouterModule,
     NgbModule
   ],
