@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { Page1Component } from './page1/page1.component';
+import { LandingPageComponent } from './landingPage/landingPage.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent, pathMatch: 'full' },
-  { path: 'page1', component: Page1Component, pathMatch: 'full' }
+  { path: '', component: LandingPageComponent, pathMatch: 'full' },
+  { path: 'gift', component: HomeComponent, pathMatch: 'full' }
 ];
 
 @NgModule({

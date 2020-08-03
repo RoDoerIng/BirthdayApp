@@ -10,7 +10,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
-import { Page1Component } from './page1/page1.component';
+import { LandingPageComponent } from './landingPage/landingPage.component';
 import { BatteryComponent } from './battery/battery.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -18,7 +18,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   declarations: [
     AppComponent,
     HomeComponent,
-    Page1Component,
+    LandingPageComponent,
     BatteryComponent
   ],
   imports: [
