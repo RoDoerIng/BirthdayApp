@@ -13,13 +13,15 @@ import { RouterModule } from '@angular/router';
 import { LandingPageComponent } from './landingPage/landingPage.component';
 import { BatteryComponent } from './battery/battery.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { Question1Component } from './question1/question1.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     LandingPageComponent,
-    BatteryComponent
+    BatteryComponent,
+    Question1Component
   ],
   imports: [
     BrowserModule,
