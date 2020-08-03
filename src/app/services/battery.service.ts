@@ -15,6 +15,17 @@ export class BatteryService {
     return BatteryService.batteryLevel;
   }
 
+  public setBatteryLevel(level: number): number{
+    var newLevel: number;
+    if (level > this.MAXIMUM_LEVEL) newLevel = this.MAXIMUM_LEVEL;
+    else if (level < this.MINIMUM_LEVEL) newLevel = this.MINIMUM_LEVEL;
+    else newLevel = level;
+
+    BatteryService.batteryLevel = this.roundToTen(newLevel);
+    
+    return BatteryService.batteryLevel;
+  }
+
   public decreaseBatteryLevel(amount: number): number {
     console.debug('entering decreaseBatteryLevel with level: ' + BatteryService.batteryLevel);
     var newBatteryLevel: number = this.roundToTen(BatteryService.batteryLevel - amount);
