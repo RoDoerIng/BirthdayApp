@@ -9,7 +9,9 @@ import { BatteryService } from '../services/battery.service';
 })
 export class Question1Component implements OnInit {
 
-  constructor(private router: Router, public batteryService: BatteryService) { }
+  constructor(private router: Router, public batteryService: BatteryService) { 
+    batteryService.setBatteryLevel(100);
+  }
 
   ngOnInit(): void {
   }
