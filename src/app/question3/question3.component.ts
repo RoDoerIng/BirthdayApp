@@ -16,6 +16,6 @@ export class Question3Component implements OnInit {
 
   goToQuestion4(){
     this.batteryService.decreaseBatteryLevel(30)
-    this.router.navigateByUrl('/question4');
+    this.router.navigateByUrl('/gift');
   }
 }
