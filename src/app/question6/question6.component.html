@@ -1,1 +1,17 @@
-<p>question6 works!</p>
+<app-battery></app-battery>
+
+<mat-card class="m-2 mb-2 mx-auto bg-light mt-4" style="max-width: 707px;">
+  <mat-card-header>
+    <mat-card-title>Frage #6: Wie viele Radl-Kilometer fährst du pro Jahr?</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="list-group">
+      <button (click)="goToNextPageAddLevel('question7', -50)" type="button" class="list-group-item list-group-item-action">Fahrradfahren, was ist das?</button>
+      <button (click)="goToNextPageAddLevel('question7', 0)" type="button" class="list-group-item list-group-item-action">200 bis 500 km</button>
+      <button (click)="goToNextPageAddLevel('question7', 10)" type="button" class="list-group-item list-group-item-action">500 bis 2000 km</button>
+      <button (click)="goToNextPageAddLevel('question7', 20)" type="button" class="list-group-item list-group-item-action">2000 bis 5000 km</button>
+      <button (click)="goToNextPageAddLevel('question7', 40)" type="button" class="list-group-item list-group-item-action">5000 bis 10.000 km</button>
+      <button (click)="goToNextPageAddLevel('question7', 50)" type="button" class="list-group-item list-group-item-action">Mehr als 10.000 km</button>
+    </div>
+  </mat-card-content>
+</mat-card>

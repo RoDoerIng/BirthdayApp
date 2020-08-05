@@ -1,1 +1,27 @@
-<p>question5 works!</p>
+<app-battery></app-battery>
+
+<mat-card class="m-2 mb-2 mx-auto bg-light mt-4" style="max-width: 707px;">
+  <mat-card-header>
+    <mat-card-title>Frage #5: Welche Sportarten betreibst Du?</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <!-- <div class="list-group">
+      <button (click)="goToNextPageSetLevel('question6', -50)" type="button" class="list-group-item list-group-item-action">Fahrradfahren, was ist das?</button>
+      <button (click)="goToNextPageSetLevel('question6', 0)" type="button" class="list-group-item list-group-item-action">200 bis 500 km</button>
+      <button (click)="goToNextPageSetLevel('question6', 10)" type="button" class="list-group-item list-group-item-action">500 bis 2000 km</button>
+      <button (click)="goToNextPageSetLevel('question6', 20)" type="button" class="list-group-item list-group-item-action">2000 bis 5000 km</button>
+      <button (click)="goToNextPageSetLevel('question6', 40)" type="button" class="list-group-item list-group-item-action">5000 bis 10000 km</button>
+      <button (click)="goToNextPageSetLevel('question6', 50)" type="button" class="list-group-item list-group-item-action">Mehr als 10.000 km</button>
+    </div> -->
+    <div class="list-group checkbox-list-group">
+      <div class="list-group-item">&nbsp;<label><input type="checkbox"><span class="list-group-item-text"><i class="fa fa-fw"></i> Ausdauersport</span></label></div>
+      <div class="list-group-item"><label>&nbsp;<input type="checkbox"><span class="list-group-item-text"><i class="fa fa-fw"></i> Kraftsport</span></label></div>
+      <div class="list-group-item"><label>&nbsp;<input type="checkbox"><span class="list-group-item-text"><i class="fa fa-fw"></i> Denksport</span></label></div>
+      <div class="list-group-item"><label>&nbsp;<input type="checkbox"><span class="list-group-item-text"><i class="fa fa-fw"></i> E-Sport</span></label></div>
+    </div>
+  </mat-card-content>
+</mat-card>
+
+<div class="text-center">
+  <a type="button" class="btn btn-primary text-white" (click)="goToNextPageAddLevel('question6', 10)">Weiter</a>
+</div>
