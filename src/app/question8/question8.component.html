@@ -1,1 +1,16 @@
-<p>question8 works!</p>
+<app-battery></app-battery>
+
+<mat-card class="m-2 mb-2 mx-auto bg-light mt-4" style="max-width: 707px;">
+  <mat-card-header>
+    <mat-card-title>Frage #8: Wie oft trinken Sie Alkohol?</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="list-group">
+      <button (click)="goToNextPageSetLevel('score', 50)" type="button" class="list-group-item list-group-item-action">Nie</button>
+      <button (click)="goToNextPageSetLevel('score', 50)" type="button" class="list-group-item list-group-item-action">An 1-2 Tagen pro Woche</button>
+      <button (click)="goToNextPageSetLevel('score', 50)" type="button" class="list-group-item list-group-item-action">An 2-3 Tagen pro Woche</button>
+      <button (click)="goToNextPageSetLevel('score', 50)" type="button" class="list-group-item list-group-item-action">An 3-5 Tagen pro Woche</button>
+      <button (click)="goToNextPageSetLevel('score', 50)" type="button" class="list-group-item list-group-item-action">Jeden Tag</button>
+    </div>
+  </mat-card-content>
+</mat-card>
