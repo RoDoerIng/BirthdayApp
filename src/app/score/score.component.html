@@ -1,0 +1,16 @@
+<mat-card class="m-2 mb-2 mx-auto bg-light mt-4" style="max-width: 707px;">
+  <mat-card-header>
+    <mat-card-title>Auswertung...</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <app-battery></app-battery>
+    <p>
+      Mit {{getBatteryLevel()}} % Lebensakku lässt dein Akkustand zu wünschen übrig.
+    </p>
+  </mat-card-content>
+</mat-card>
+
+
+<div class="text-center">
+  <a type="button" class="btn btn-primary text-white" routerLink="/gift">Hier dein Trostpreis...</a>
+</div>

@@ -20,6 +20,12 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 `ng build --prod --baseHref="https://rodoering.github.io/BirthdayApp/"`
 
+## Deploy
+
+Install *angular-cli-ghpages* with `ng add angular-cli-ghpages`. (See [https://github.com/angular-schule/angular-cli-ghpages](https://github.com/angular-schule/angular-cli-ghpages)
+
+Run `ng deploy --repo=https://github.com/RoDoerIng/BirthdayApp.git --base-href=/BirthdayApp/`
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
