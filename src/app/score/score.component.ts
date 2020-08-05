@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BatteryService } from '../services/battery.service';
 
 @Component({
   selector: 'app-score',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ScoreComponent implements OnInit {
 
-  constructor() { }
+  constructor(private batteryService: BatteryService) { }
 
   ngOnInit(): void {
+    this.batteryService.setBatteryLevel(30);
   }
 
+  getBatteryLevel(): number{
+    return this.batteryService.getBatteryLevel()
+  }
 }
