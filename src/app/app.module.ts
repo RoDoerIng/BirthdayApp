@@ -21,6 +21,7 @@ import { Question5Component } from './question5/question5.component';
 import { Question6Component } from './question6/question6.component';
 import { Question7Component } from './question7/question7.component';
 import { Question8Component } from './question8/question8.component';
+import { ScoreComponent } from './score/score.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { Question8Component } from './question8/question8.component';
     Question5Component,
     Question6Component,
     Question7Component,
-    Question8Component
+    Question8Component,
+    ScoreComponent
   ],
   imports: [
     BrowserModule,
