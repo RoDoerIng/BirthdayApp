@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
-import { BatteryService } from '../services/battery.service';
 import { BaseQuestion } from '../questions/base-question';
 
 @Component({
