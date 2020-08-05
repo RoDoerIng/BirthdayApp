@@ -5,10 +5,10 @@ import { Directive } from '@angular/core';
 @Directive()
 export class BaseQuestion {
 
-  constructor(private router: Router, public batteryService: BatteryService) { }
+  constructor(private router: Router, protected batteryService: BatteryService) { }
 
   public goToNextPageSetLevel(pageName: string, level: number = -999){
-    if (level = -999) {
+    if (level == -999) {
       level = this.batteryService.getBatteryLevel();
     }
     this.batteryService.setBatteryLevel(level)
