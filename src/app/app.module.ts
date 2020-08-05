@@ -19,6 +19,8 @@ import { Question3Component } from './question3/question3.component';
 import { Question4Component } from './question4/question4.component';
 import { Question5Component } from './question5/question5.component';
 import { Question6Component } from './question6/question6.component';
+import { Question7Component } from './question7/question7.component';
+import { Question8Component } from './question8/question8.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { Question6Component } from './question6/question6.component';
     Question3Component,
     Question4Component,
     Question5Component,
-    Question6Component
+    Question6Component,
+    Question7Component,
+    Question8Component
   ],
   imports: [
     BrowserModule,
