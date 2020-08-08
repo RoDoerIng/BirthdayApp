@@ -22,6 +22,8 @@ import { Question6Component } from './question6/question6.component';
 import { Question7Component } from './question7/question7.component';
 import { Question8Component } from './question8/question8.component';
 import { ScoreComponent } from './score/score.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -48,7 +50,8 @@ import { ScoreComponent } from './score/score.component';
     MatButtonModule,
     MatCardModule,
     RouterModule,
-    NgbModule
+    NgbModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
