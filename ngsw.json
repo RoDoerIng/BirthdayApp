@@ -1,0 +1,114 @@
+{
+  "configVersion": 1,
+  "timestamp": 1596921767047,
+  "index": "https://rodoering.github.io/BirthdayApp/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://rodoering.github.io/BirthdayApp/favicon.ico",
+        "https://rodoering.github.io/BirthdayApp/index.html",
+        "https://rodoering.github.io/BirthdayApp/main-es2015.3c0f5d56928c6a3db1af.js",
+        "https://rodoering.github.io/BirthdayApp/main-es5.3c0f5d56928c6a3db1af.js",
+        "https://rodoering.github.io/BirthdayApp/manifest.webmanifest",
+        "https://rodoering.github.io/BirthdayApp/polyfills-es2015.d630f8d8d2f25c0ddc79.js",
+        "https://rodoering.github.io/BirthdayApp/polyfills-es5.d33101a7d00db04ac139.js",
+        "https://rodoering.github.io/BirthdayApp/runtime-es2015.0811dcefd377500b5b1a.js",
+        "https://rodoering.github.io/BirthdayApp/runtime-es5.0811dcefd377500b5b1a.js",
+        "https://rodoering.github.io/BirthdayApp/styles.d100c65fd49ed6cd6755.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://rodoering.github.io/BirthdayApp/assets/icons/icon-128x128.png",
+        "https://rodoering.github.io/BirthdayApp/assets/icons/icon-144x144.png",
+        "https://rodoering.github.io/BirthdayApp/assets/icons/icon-152x152.png",
+        "https://rodoering.github.io/BirthdayApp/assets/icons/icon-192x192.png",
+        "https://rodoering.github.io/BirthdayApp/assets/icons/icon-384x384.png",
+        "https://rodoering.github.io/BirthdayApp/assets/icons/icon-512x512.png",
+        "https://rodoering.github.io/BirthdayApp/assets/icons/icon-72x72.png",
+        "https://rodoering.github.io/BirthdayApp/assets/icons/icon-96x96.png",
+        "https://rodoering.github.io/BirthdayApp/assets/images/avatar.png",
+        "https://rodoering.github.io/BirthdayApp/assets/images/battery_0.png",
+        "https://rodoering.github.io/BirthdayApp/assets/images/battery_10.png",
+        "https://rodoering.github.io/BirthdayApp/assets/images/battery_100.png",
+        "https://rodoering.github.io/BirthdayApp/assets/images/battery_20.png",
+        "https://rodoering.github.io/BirthdayApp/assets/images/battery_30.png",
+        "https://rodoering.github.io/BirthdayApp/assets/images/battery_40.png",
+        "https://rodoering.github.io/BirthdayApp/assets/images/battery_50.png",
+        "https://rodoering.github.io/BirthdayApp/assets/images/battery_60.png",
+        "https://rodoering.github.io/BirthdayApp/assets/images/battery_70.png",
+        "https://rodoering.github.io/BirthdayApp/assets/images/battery_80.png",
+        "https://rodoering.github.io/BirthdayApp/assets/images/battery_90.png",
+        "https://rodoering.github.io/BirthdayApp/assets/images/course.png",
+        "https://rodoering.github.io/BirthdayApp/assets/images/starterlist.png",
+        "https://rodoering.github.io/BirthdayApp/assets/images/startnummer.png",
+        "https://rodoering.github.io/BirthdayApp/assets/images/startnummer_no_frame.png",
+        "https://rodoering.github.io/BirthdayApp/avatar.3a3c545743cf2e4c97e2.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://rodoering.github.io/BirthdayApp/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://rodoering.github.io/BirthdayApp/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://rodoering.github.io/BirthdayApp/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://rodoering.github.io/BirthdayApp/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://rodoering.github.io/BirthdayApp/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://rodoering.github.io/BirthdayApp/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://rodoering.github.io/BirthdayApp/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://rodoering.github.io/BirthdayApp/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://rodoering.github.io/BirthdayApp/assets/images/avatar.png": "11cc7d0efab939c27934a7115e7d0b5a18c19c25",
+    "https://rodoering.github.io/BirthdayApp/assets/images/battery_0.png": "9360ef4e791751eebbaff88fb74311709595a668",
+    "https://rodoering.github.io/BirthdayApp/assets/images/battery_10.png": "1885c6699a87d9f0d4c160486e496ab5de58ff24",
+    "https://rodoering.github.io/BirthdayApp/assets/images/battery_100.png": "c03ba8cfa99aad0a18808a4fde275e55fb73163b",
+    "https://rodoering.github.io/BirthdayApp/assets/images/battery_20.png": "43e62acd90b76b9e736d0afda35af1aa07f9bc5e",
+    "https://rodoering.github.io/BirthdayApp/assets/images/battery_30.png": "6fa78c2407750272621e4d5a8ed24e051effa05e",
+    "https://rodoering.github.io/BirthdayApp/assets/images/battery_40.png": "3af004c86f8a6e7ff5333dbaaa8b81194aa78a05",
+    "https://rodoering.github.io/BirthdayApp/assets/images/battery_50.png": "97159eb6ddc2bafc6086db722f378f9745ee503c",
+    "https://rodoering.github.io/BirthdayApp/assets/images/battery_60.png": "c414a901a1e3c5cd8f1f5732ee38b825c0d8bd6c",
+    "https://rodoering.github.io/BirthdayApp/assets/images/battery_70.png": "30d525a4ca0292d63e4cf320588bf02ec68125f9",
+    "https://rodoering.github.io/BirthdayApp/assets/images/battery_80.png": "9aed544fd18492f1cc01b5a2be5349f1203f20f2",
+    "https://rodoering.github.io/BirthdayApp/assets/images/battery_90.png": "ad792a39a1fbf24cc9a9e7aeebb39c906a7c4a47",
+    "https://rodoering.github.io/BirthdayApp/assets/images/course.png": "3f4df0a7cd95a611fdc55b59478d6ef2f670e3d8",
+    "https://rodoering.github.io/BirthdayApp/assets/images/starterlist.png": "9b3c425aa10157d3d0355d944226a98dce686271",
+    "https://rodoering.github.io/BirthdayApp/assets/images/startnummer.png": "dbd54c724c0f1f455b840a8124d48539b7fbdae6",
+    "https://rodoering.github.io/BirthdayApp/assets/images/startnummer_no_frame.png": "ba64f493023bb61af0f2bbc09d31f66740f0aeeb",
+    "https://rodoering.github.io/BirthdayApp/avatar.3a3c545743cf2e4c97e2.png": "11cc7d0efab939c27934a7115e7d0b5a18c19c25",
+    "https://rodoering.github.io/BirthdayApp/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://rodoering.github.io/BirthdayApp/index.html": "0437810cbd336274872f6c9972c5c58000a95114",
+    "https://rodoering.github.io/BirthdayApp/main-es2015.3c0f5d56928c6a3db1af.js": "a33966d64499e61c2d95884bf221ca0be522f008",
+    "https://rodoering.github.io/BirthdayApp/main-es5.3c0f5d56928c6a3db1af.js": "5796e3f614a0d9f27894236c0eaad66ed89cf2bf",
+    "https://rodoering.github.io/BirthdayApp/manifest.webmanifest": "213b0a8387783b7f0a973212bf5d35b65a4ace2f",
+    "https://rodoering.github.io/BirthdayApp/polyfills-es2015.d630f8d8d2f25c0ddc79.js": "90fb474e1a7d87bd57bc8a95fb3fd361b919d815",
+    "https://rodoering.github.io/BirthdayApp/polyfills-es5.d33101a7d00db04ac139.js": "0d972278a7d9fa132278a9d02f5b2f8e3fb36ea2",
+    "https://rodoering.github.io/BirthdayApp/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://rodoering.github.io/BirthdayApp/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://rodoering.github.io/BirthdayApp/styles.d100c65fd49ed6cd6755.css": "e9127f2cd8c344fa5dcdbaca3636e83d587aea54"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
